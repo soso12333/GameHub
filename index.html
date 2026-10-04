@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header>
+
+    <h1>مرحبا بك في GameHub</h1>
+
+    <nav>
+
+        <a href="#">الرئيسية</a>
+        <a href="#">الألعاب</a>
+        <a href="#">التقييمات</a>
+
+        <div class="dropdown">
+
+            <button class="dropdown-btn">
+                التصنيفات ▼
+            </button>
+
+            <div class="dropdown-menu">
+                <a href="#">أكشن</a>
+                <a href="#">مغامرات</a>
+                <a href="#">رعب</a>
+                <a href="#">RPG</a>
+                <a href="#">رياضة</a>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="ابحث عن لعبة..."
+        >
+
+        <button id="searchButton">بحث</button>
+
+    </div>
+
+</header>
+
+<!--HERO-->
+<section class="hero">
+
+    <h2>اكتشف لعبتك القادمة</h2>
+
+    <p>تقييمات ومراجعات لأفضل ألعاب الفيديو</p>
+
+    <button>استكشف الألعاب</button>
+
+</section>
+
+    <!-- FEATURED GAMES / SLIDER-->
+<section class="game-slider">
+
+    <h2>أفضل الألعاب</h2>
+
+    <div class="slider-container">
+
+        <img
+            src="https://sm.pcmag.com/t/pcmag_me/photo/default/4467209-silent-hill-f_nh33.1920.jpg"
+            alt="Silent Hill"
+        >
+
+        <div class="image-shadow"></div>
+
+    </div>
+
+</section>
+<section class="featured">
+
+    <h2>الألعاب المميزة</h2>
+
+    <div class="featured-container">
+
+        <div class="game-card">
+            <img src="https://store-images.s-microsoft.com/image/apps.58752.68182501197884443.ac728a87-7bc1-4a0d-8bc6-0712072da93c.0cf58754-9802-46f8-8557-8d3ff32a627a?q=90&w=480&h=270%22alt=%22Game" alt="Red Dead Redemption 2">
+            <h3>Red Dead Redemption 2</h3>
+            <p>⭐ 9.5 / 10</p>
+        </div>
+
+        <div class="game-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNmzvC7LhZ_pdmZecEQIgstk-LUnhxP4DEXD1DCDkd68lDcJ0IHOXX31w&s=10" alt="Elden Ring">
+            <h3>Elden Ring</h3>
+            <p>⭐ 9.4 / 10</p>
+        </div>
+
+        <div class="game-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdsNnQEtdlg0qzvzTj-Do5ZGPAyGdlUOxZ-iI9ue9HAirasL3bzl_VZY8s&s=10" alt="Silent Hill 2">
+            <h3>God of War</h3>
+            <p>⭐ 9.2 / 10</p>
+        </div>
+
+    </div>
+
+</section>
+
+     <!-- MAIN CONTENT -->
+ <main class="content">
+
+    <section class="reviews">
+
+        <h2>أحدث المراجعات</h2>
+
+        <article class="review">
+
+            <h3>Red Dead Redemption 2</h3>
+
+            <p>
+                تجربة عالم مفتوح مميزة بقصة قوية وعالم مليء بالتفاصيل.
+            </p>
+
+            <a href="#">اقرأ المراجعة</a>
+
+        </article>
+
+        <article class="review">
+
+            <h3>Elden Ring</h3>
+
+            <p>
+                عالم ضخم واستكشاف ممتع مع نظام قتال مليء بالتحديات.
+            </p>
+
+            <a href="#">اقرأ المراجعة</a>
+
+        </article>
+         <article class="review">
+
+            <h3>What Remains of Edith Finch</h3>
+
+            <p>
+               لعبة قصصية قصيرة ومميزة، تعتمد على الاستكشاف وسرد قصص أفراد عائلة Finch بطريقة إبداعية ومؤثرة
+            </p>
+
+            <a href="#">اقرأ المراجعة</a>
+
+        </article>
+
+
+    </section>
+
+    <aside class="sidebar">
+
+        <h2>الأعلى تقييماً</h2>
+
+        <ol>
+            <li>Red Dead Redemption 2 ⭐ 9.5</li>
+            <li>Elden Ring ⭐ 9.4</li>
+            <li>Silent Hill 2 ⭐ 9.2</li>
+            <li>Minecraft⭐ 9.0</li>
+        </ol>
+
+    </aside>
+
+</main>
+
+<!-- GAME CARDS -->
+ <section>
+
+     <h2>ألعاب شائعة</h2>
+    
+     <div class="games-container">
+
+       <div class="game-card">
+    <img src="https://store-images.s-microsoft.com/image/apps.58752.68182501197884443.ac728a87-7bc1-4a0d-8bc6-0712072da93c.0cf58754-9802-46f8-8557-8d3ff32a627a?q=90&w=480&h=270%22alt=%22Game" alt="Red Dead Redemption 2">
+    <h3>Red Dead Redemption 2</h3>
+    <p>⭐ 9.5 / 10</p>
+</div>
+
+<div class="game-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNmzvC7LhZ_pdmZecEQIgstk-LUnhxP4DEXD1DCDkd68lDcJ0IHOXX31w&s=10" alt="Elden Ring">
+    <h3>Elden Ring</h3>
+    <p>⭐ 9.4 / 10</p>
+</div>
+        <div class="game-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdsNnQEtdlg0qzvzTj-Do5ZGPAyGdlUOxZ-iI9ue9HAirasL3bzl_VZY8s&s=10" alt="Game 3">
+            <h3>Silent Hill 2</h3>
+            <p>⭐ 9.2 / 10</p> 
+           <button>التفاصيل</button>
+</div>
+
+<div class="game-card">
+    <img src="https://i.guim.co.uk/img/media/b75b9dc512537f1e9d7dc1d9ad7f4602fe436a6e/150_0_2250_1350/master/2250.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=a7cf577c8f671f81141fe5c481e0f6a4" alt="Game 4">
+    <h3>The Last of Us Part I</h3>
+    <p>⭐ 9.5 / 10</p>
+    <button>التفاصيل</button>
+</div>
+
+<div class="game-card">
+    <img src="https://cdn.loaded.com/500x706/media/catalog/product/c/o/co2228_7_.jpg" alt="Game 4">
+    <h3>Detroit: Become Human</h3>
+    <p>⭐ 9.5 / 10</p>
+    <button>التفاصيل</button>
+</div>
+
+<div class="game-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmQ2ysaz5VelrNFhUDluas8e0q4K0IIEIA5cmfc962jA&s=10" alt="game 5">
+    <h3>What Remains of Edith Finch</h3>
+    <p>⭐ 9.0 / 10</p>
+    <button>التفاصيل</button>
+</div>
+
+<div class="game-card">
+    <img src="https://cdn.mos.cms.futurecdn.net/v2/t:0,l:320,cw:1920,ch:1440,q:80,w:1920/B5ANYXiNwfTMSLkjWUAq5J.jpg" alt="Game 6">
+    <h3>Heavy Rain</h3>
+    <p>⭐ 8.5 / 10</p>
+    <button>التفاصيل</button>
+</div>
+
+<div class="game-card">
+    <img src= "https://i.ytimg.com/vi/x3-k2U-jPaE/maxresdefault.jpg" alt="Game 7">
+    <h3>Beyond: Two Souls</h3>
+    <p>⭐ 8.0 / 10</p>
+    <button>التفاصيل</button>
+</div>
+</div>
+ </section>
+<section class="comments">
+
+    <h2>التعليقات</h2>
+
+    <div class="comment-form">
+
+        <input
+            type="text"
+            id="userName"
+            placeholder="اسمك"
+        >
+
+        <textarea
+            id="commentText"
+            placeholder="اكتب تعليقك..."
+        ></textarea>
+
+        <button id="commentButton">
+            إضافة تعليق
+        </button>
+
+    </div>
+    <div id="commentsList"></div>
+
+</section>
+
+<footer>
+    <h2>GameHub</h2>
+    <p>اكتشف، قيّم والعب.</p>
+    <p>© 2026 GameHub - جميع الحقوق محفوظة</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
